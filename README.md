@@ -1,12 +1,13 @@
 # utilitatios
 
-public class App {
+Projeto Maven:
+
 	public static void main(String[] args) {
 		Reader reader = null;
 		try {
 
 			reader = Files.newBufferedReader(
-					Paths.get("C:\\Users\\nilda\\Desktop\\Gensis\\Supervisório\\ProximaOperacao.csv"));
+					Paths.get("<caminho do arquivo>));
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -24,7 +25,7 @@ public class App {
 
 		
 		for (String[] dado : dados) {
-			System.out.println("INSERT INTO monitoracao_proximaoperacao (ID_LISTOP, ID_LISTOP_PX, TIPO_OP) VALUES ( " + dado[0] + "," + dado[1] + ",'" + dado[2]+ "');" );
+			System.out.println(dado[0] + "," + dado[1] + ",'" + dado[2]);
 		}
 	}
 }
