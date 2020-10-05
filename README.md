@@ -56,7 +56,7 @@ Projeto Maven: Leitor de arquivo CSV - gerando arquivo:
 		try {
 			BufferedWriter buffWrite = new BufferedWriter(
 					new FileWriter("CAMINHO\NOME_ARQUIVO"));
-			int SEQ = 0; //SEQUENCE
+			int seq = 0; //SEQUENCE
 			for (String[] dado : dados) {
 				buffWrite.append(
 						"INSERT INTO ssp_dados_poco (<CAMPOS>) VALUES ("+ seq +", '"
