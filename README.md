@@ -1,6 +1,6 @@
 # utilitatios
 
-Projeto Maven: Leitor de arquivo CSV
+Projeto Maven: Código Java para montar um Leitor de arquivo CSV.
 
 	public static void main(String[] args) {
 		Reader reader = null;
