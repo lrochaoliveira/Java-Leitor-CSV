@@ -1,4 +1,4 @@
-# utilitatios
+# utilitarios
 
 Código Java para montar um Leitor de arquivo CSV.
 
